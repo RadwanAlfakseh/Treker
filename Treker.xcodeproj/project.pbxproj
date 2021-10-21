@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EBD9CA92721E5A500F44579 /* TrekerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD9CA82721E5A500F44579 /* TrekerApp.swift */; };
+		3EBD9CAB2721E5A500F44579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD9CAA2721E5A500F44579 /* ContentView.swift */; };
+		3EBD9CAD2721E5A800F44579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD9CAC2721E5A800F44579 /* Assets.xcassets */; };
+		3EBD9CB02721E5A800F44579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD9CAF2721E5A800F44579 /* Preview Assets.xcassets */; };
+		3EBD9CBA2721E5A800F44579 /* TrekerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD9CB92721E5A800F44579 /* TrekerTests.swift */; };
+		3EBD9CC42721E5A800F44579 /* TrekerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD9CC32721E5A800F44579 /* TrekerUITests.swift */; };
+		3EBD9CC62721E5A800F44579 /* TrekerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD9CC52721E5A800F44579 /* TrekerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EBD9CB62721E5A800F44579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EBD9C9D2721E5A500F44579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EBD9CA42721E5A500F44579;
+			remoteInfo = Treker;
+		};
+		3EBD9CC02721E5A800F44579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EBD9C9D2721E5A500F44579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EBD9CA42721E5A500F44579;
+			remoteInfo = Treker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EBD9CA52721E5A500F44579 /* Treker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBD9CA82721E5A500F44579 /* TrekerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekerApp.swift; sourceTree = "<group>"; };
+		3EBD9CAA2721E5A500F44579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3EBD9CAC2721E5A800F44579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EBD9CAF2721E5A800F44579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EBD9CB52721E5A800F44579 /* TrekerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBD9CB92721E5A800F44579 /* TrekerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekerTests.swift; sourceTree = "<group>"; };
+		3EBD9CBF2721E5A800F44579 /* TrekerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBD9CC32721E5A800F44579 /* TrekerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekerUITests.swift; sourceTree = "<group>"; };
+		3EBD9CC52721E5A800F44579 /* TrekerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EBD9CA22721E5A500F44579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EBD9CB22721E5A800F44579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EBD9CBC2721E5A800F44579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EBD9C9C2721E5A500F44579 = {
+			isa = PBXGroup;
+			children = (
+				3EBD9CA72721E5A500F44579 /* Treker */,
+				3EBD9CB82721E5A800F44579 /* TrekerTests */,
+				3EBD9CC22721E5A800F44579 /* TrekerUITests */,
+				3EBD9CA62721E5A500F44579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EBD9CA62721E5A500F44579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EBD9CA52721E5A500F44579 /* Treker.app */,
+				3EBD9CB52721E5A800F44579 /* TrekerTests.xctest */,
+				3EBD9CBF2721E5A800F44579 /* TrekerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EBD9CA72721E5A500F44579 /* Treker */ = {
+			isa = PBXGroup;
+			children = (
+				3EBD9CA82721E5A500F44579 /* TrekerApp.swift */,
+				3EBD9CAA2721E5A500F44579 /* ContentView.swift */,
+				3EBD9CAC2721E5A800F44579 /* Assets.xcassets */,
+				3EBD9CAE2721E5A800F44579 /* Preview Content */,
+			);
+			path = Treker;
+			sourceTree = "<group>";
+		};
+		3EBD9CAE2721E5A800F44579 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3EBD9CAF2721E5A800F44579 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EBD9CB82721E5A800F44579 /* TrekerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EBD9CB92721E5A800F44579 /* TrekerTests.swift */,
+			);
+			path = TrekerTests;
+			sourceTree = "<group>";
+		};
+		3EBD9CC22721E5A800F44579 /* TrekerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EBD9CC32721E5A800F44579 /* TrekerUITests.swift */,
+				3EBD9CC52721E5A800F44579 /* TrekerUITestsLaunchTests.swift */,
+			);
+			path = TrekerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EBD9CA42721E5A500F44579 /* Treker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBD9CC92721E5A800F44579 /* Build configuration list for PBXNativeTarget "Treker" */;
+			buildPhases = (
+				3EBD9CA12721E5A500F44579 /* Sources */,
+				3EBD9CA22721E5A500F44579 /* Frameworks */,
+				3EBD9CA32721E5A500F44579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Treker;
+			productName = Treker;
+			productReference = 3EBD9CA52721E5A500F44579 /* Treker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EBD9CB42721E5A800F44579 /* TrekerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBD9CCC2721E5A800F44579 /* Build configuration list for PBXNativeTarget "TrekerTests" */;
+			buildPhases = (
+				3EBD9CB12721E5A800F44579 /* Sources */,
+				3EBD9CB22721E5A800F44579 /* Frameworks */,
+				3EBD9CB32721E5A800F44579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EBD9CB72721E5A800F44579 /* PBXTargetDependency */,
+			);
+			name = TrekerTests;
+			productName = TrekerTests;
+			productReference = 3EBD9CB52721E5A800F44579 /* TrekerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EBD9CBE2721E5A800F44579 /* TrekerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBD9CCF2721E5A800F44579 /* Build configuration list for PBXNativeTarget "TrekerUITests" */;
+			buildPhases = (
+				3EBD9CBB2721E5A800F44579 /* Sources */,
+				3EBD9CBC2721E5A800F44579 /* Frameworks */,
+				3EBD9CBD2721E5A800F44579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EBD9CC12721E5A800F44579 /* PBXTargetDependency */,
+			);
+			name = TrekerUITests;
+			productName = TrekerUITests;
+			productReference = 3EBD9CBF2721E5A800F44579 /* TrekerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EBD9C9D2721E5A500F44579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3EBD9CA42721E5A500F44579 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3EBD9CB42721E5A800F44579 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3EBD9CA42721E5A500F44579;
+					};
+					3EBD9CBE2721E5A800F44579 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3EBD9CA42721E5A500F44579;
+					};
+				};
+			};
+			buildConfigurationList = 3EBD9CA02721E5A500F44579 /* Build configuration list for PBXProject "Treker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EBD9C9C2721E5A500F44579;
+			productRefGroup = 3EBD9CA62721E5A500F44579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EBD9CA42721E5A500F44579 /* Treker */,
+				3EBD9CB42721E5A800F44579 /* TrekerTests */,
+				3EBD9CBE2721E5A800F44579 /* TrekerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EBD9CA32721E5A500F44579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBD9CB02721E5A800F44579 /* Preview Assets.xcassets in Resources */,
+				3EBD9CAD2721E5A800F44579 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EBD9CB32721E5A800F44579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EBD9CBD2721E5A800F44579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EBD9CA12721E5A500F44579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBD9CAB2721E5A500F44579 /* ContentView.swift in Sources */,
+				3EBD9CA92721E5A500F44579 /* TrekerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EBD9CB12721E5A800F44579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBD9CBA2721E5A800F44579 /* TrekerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EBD9CBB2721E5A800F44579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBD9CC42721E5A800F44579 /* TrekerUITests.swift in Sources */,
+				3EBD9CC62721E5A800F44579 /* TrekerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EBD9CB72721E5A800F44579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EBD9CA42721E5A500F44579 /* Treker */;
+			targetProxy = 3EBD9CB62721E5A800F44579 /* PBXContainerItemProxy */;
+		};
+		3EBD9CC12721E5A800F44579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EBD9CA42721E5A500F44579 /* Treker */;
+			targetProxy = 3EBD9CC02721E5A800F44579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EBD9CC72721E5A800F44579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EBD9CC82721E5A800F44579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EBD9CCA2721E5A800F44579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Treker/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.RadwanAlfakseh.Treker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EBD9CCB2721E5A800F44579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Treker/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.RadwanAlfakseh.Treker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EBD9CCD2721E5A800F44579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.RadwanAlfakseh.TrekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treker.app/Treker";
+			};
+			name = Debug;
+		};
+		3EBD9CCE2721E5A800F44579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.RadwanAlfakseh.TrekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treker.app/Treker";
+			};
+			name = Release;
+		};
+		3EBD9CD02721E5A800F44579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.RadwanAlfakseh.TrekerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Treker;
+			};
+			name = Debug;
+		};
+		3EBD9CD12721E5A800F44579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.RadwanAlfakseh.TrekerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Treker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EBD9CA02721E5A500F44579 /* Build configuration list for PBXProject "Treker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBD9CC72721E5A800F44579 /* Debug */,
+				3EBD9CC82721E5A800F44579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EBD9CC92721E5A800F44579 /* Build configuration list for PBXNativeTarget "Treker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBD9CCA2721E5A800F44579 /* Debug */,
+				3EBD9CCB2721E5A800F44579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EBD9CCC2721E5A800F44579 /* Build configuration list for PBXNativeTarget "TrekerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBD9CCD2721E5A800F44579 /* Debug */,
+				3EBD9CCE2721E5A800F44579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EBD9CCF2721E5A800F44579 /* Build configuration list for PBXNativeTarget "TrekerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBD9CD02721E5A800F44579 /* Debug */,
+				3EBD9CD12721E5A800F44579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EBD9C9D2721E5A500F44579 /* Project object */;
+}
